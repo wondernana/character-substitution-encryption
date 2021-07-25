@@ -42,7 +42,7 @@ public class App {
         return new StringBuilder("This app helps you encrypt and decrypt messages using char-substitution. Type what you want to do next:")
                 .append("\n\t (h)elp > displays help message")
                 .append("\n\t (n)ewKey > generates new key")
-                .append("\n\t (g)ewKey > displays generated key")
+                .append("\n\t (g)etKey > displays generated key")
                 .append("\n\t (e)ncrypt > encrypts given message")
                 .append("\n\t (d)ecrypt > decrypts given message")
                 .append("\n\t (q)uit > exits the app").toString();
